@@ -54,4 +54,4 @@ if(!isset($_SESSION)) {
         </form>
     </div>
 </div>
-<?php include_once 'common/foooter.php';?>
+<?php include_once 'common/footer.php';?>
