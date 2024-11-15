@@ -5,10 +5,7 @@ if(!isset($_SESSION)) {
 ?>
 
 <?php
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-    $title = "Homepage";
+    $title = "Aplikasi Pembayaran Listrik Pascabayar";
 ?>
 <?php include_once 'database/config.php';?>
 <?php include_once 'common/header.php';?>

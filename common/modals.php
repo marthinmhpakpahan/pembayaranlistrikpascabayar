@@ -258,6 +258,16 @@
                             <td>:</td>
                             <td class="td-paid-total-biaya"></td>
                         </tr>
+                        <tr>
+                            <td>Biaya Admin (10%)</td>
+                            <td>:</td>
+                            <td class="td-paid-biaya-admin"></td>
+                        </tr>
+                        <tr>
+                            <td>Total Bayar</td>
+                            <td>:</td>
+                            <td class="td-paid-total-bayar"></td>
+                        </tr>
                     </table>
                 </div>
                 <div class="modal-footer">

@@ -85,7 +85,7 @@
             <td>
             <?php if(!isset($_SESSION["login_id_level"]) && $tagihan['status'] == "Belum Dibayar") { ?>
                 <div data-id-tagihan="<?= $tagihan['id_tagihan']; ?>" data-id-pelanggan="<?= $tagihan['id_pelanggan']; ?>" data-bulan="<?= $tagihan['bulan']; ?>" data-jumlah-meter="<?= $tagihan["jumlah_meter"]; ?>"
-                        data-tahun="<?= $tagihan['tahun']; ?>" data-daya="<?= $tagihan["daya"]; ?>"
+                        data-tahun="<?= $tagihan['tahun']; ?>" data-daya="<?= $tagihan["daya"]; ?>" 
                         data-total-biaya="Rp. <?= number_format(($tagihan["jumlah_meter"] * $tagihan["tarifperkwh"]), 0); ?>" data-total-biaya-number="<?= ($tagihan["jumlah_meter"] * $tagihan["tarifperkwh"]); ?>"
                         class="btn btn-sm btn-success btn-tandai-sudah-bayar-tagihan" data-bs-toggle="modal" data-bs-target="#modalConfirmPaidTagihan"><i class="far fa-check-circle"></i> Konfirmasi Pembayaran</div>
                 <?php } ?>

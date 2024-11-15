@@ -54,6 +54,10 @@
             var data_total_biaya_number = $(this).data("total-biaya-number");
             $(".td-paid-total-biaya").text(data_total_biaya);
             $(".input-paid-total-biaya").val(data_total_biaya_number);
+            var data_biaya_admin = (10/100)*data_total_biaya_number;
+            $(".td-paid-biaya-admin").text("Rp. " + data_biaya_admin);
+            var data_total_bayar = (data_biaya_admin + data_total_biaya_number);
+            $(".td-paid-total-bayar").text("Rp. " + data_total_bayar);
         });
     });
 </script>
